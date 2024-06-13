@@ -1,0 +1,401 @@
+body{
+    margin: 0px;
+    background-color:#591F0A;
+    justify-content: center;
+}
+
+
+/*Quiero ponerle unToggle Off para ponerla en modo oscuro*/
+
+header{     /*BARRA GRANDE*/
+    display: flex ;
+    background-color: #f5ecee;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap: 90px;
+    padding: 0 ;
+    border-radius: 1%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-right: 3px;    
+}
+
+nav ul {   /*BARRA pequeña*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2em;
+    padding-right: 15px;
+    margin-right: 3em
+}
+ul li {    /*BARRA pequeña*/
+    list-style: none;
+    font-family:"Major Mono Display", monospace;
+}
+.barra{ /*BARRA pequeña*/
+    text-decoration: none;
+    font-size: 13px;
+    color: #b7d608;
+    margin:auto;
+}
+.perro,
+.fa-solid,
+.fa-dog{   /*ICONO PERRO*/
+    text-decoration: none;
+    font-size: 16px;
+    color: #d60808;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+/*
+#check {
+    display: none;
+    }
+    
+    .checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    }
+
+*/
+
+main{
+    background-color: #EFA00B;
+    margin-top: 75px;
+    margin: 8px;
+    padding-bottom: 1px;
+}
+
+.mpcombi {
+    text-align: center;
+    font-size: 35px;
+    color:rgb(52, 18, 12);
+    padding: 30px;
+    padding-bottom: 0px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 2000;
+}
+.fixed{
+    position: fixed;
+    font-size: small;
+    bottom: 0px;
+    right: 30px;
+    color:rgb(52, 18, 12);
+    font-family: "Major Mono Display", monospace;
+}
+
+.seccion-1 {
+    margin-bottom: 80px;
+}
+.parrafo1 {
+    background-color: #591F0A;
+    color: blanchedalmond;
+    text-align: center;
+}
+.parrafo2 {
+    background-color: rgb(45, 7, 7);
+    color: blanchedalmond;
+    text-align: center;
+    
+}
+.parrafo3{
+    font-size: 30px;
+    color: rgb(77, 52, 15);
+    text-align: center;
+}
+
+.seccion-2{ /*contenedor de .estesoyyo y .acerca-imagen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #533745;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 3%;
+    flex-wrap:wrap ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.bienvenidos{  
+    
+    
+    
+    
+    
+}
+
+    .estesoyyo{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+    }
+
+    .acerca-imagen{
+    height: auto;
+    margin-right: 10px;
+    width: 200px;
+    display: inline;
+    }
+
+.seccion-3{
+    padding: 15px;
+    margin: 20px auto;
+    display: flex;
+    width: 90%;
+    height: 370px;
+    background-color: #BCE784;
+    justify-content: space-evenly;
+    border-radius: 3%;
+    flex-wrap:wrap ;
+
+}
+.fotos{
+    cursor: pointer;
+}
+
+.parrafo4{
+    width: 260px;
+    text-align: center;
+    margin: auto;
+    border-radius: 3%;
+    color: rgb(45, 7, 7);
+    
+}
+.aca{
+    color: rgb(45, 7, 7);
+    font-size: inherit;
+}
+.aca:hover{
+    color: rgb(124, 25, 25);
+    font-size: inherit;
+    text-decoration: underline;
+}
+.abajo{
+    
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family:"Major Mono Display", monospace;
+    font-size: medium;
+}
+.fotos {
+    size: 1px;
+    height: 200px;
+    width: auto;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.482);
+    color: bisque;   
+}
+
+
+/*ul{
+    display: inline-flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width:100%;
+    height: 100%;
+    
+}
+
+
+.header {
+    display:inline-flex inline;
+
+}
+nav{
+    display: inline-flex inline;
+    ;
+    
+    
+}
+li{
+    display: inline;
+    ;
+}
+.fa-solid{
+    display: inline-flex inline;
+
+}*/
+
+
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    .seccion-3{
+        padding: 15px;
+        margin: 20px auto;
+        display: flex;
+        width: 90%;
+        height: 1%;
+        background-color: #BCE784;
+        justify-content: space-evenly;
+        border-radius: 3%;
+        flex-direction:column ;
+    
+    }
+.abajo{  
+    text-align: center;
+}
+
+header{
+    background-color: rgb(0, 4, 255);
+
+    /*nav ul{
+        display: none;
+        background-color: #2514a5;
+        gap: 1px;
+        flex-wrap: wrap;
+    }*/
+}
+    #check{
+        display: none;
+    }
+    .checkbtn{
+        display: block;
+        margin-right: 0.5cm;
+        cursor: pointer;
+    }
+    #check:checked ~ .checkbtn{
+        display: block;
+    } 
+    #check:checked ~ .fa-bars{
+        color: #0befe4;
+    }
+    .ul{
+        display: none;
+        background-color: rgb(101, 115, 161);
+        flex-direction: column;
+        position: fixed;
+        top: 5vh;
+        right:0;
+        width: 100%;
+        height: 100%;
+        transition:all 1s;
+
+        margin-left: 0;
+        margin-right: 0;
+        border: #000000 solid 2px;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    li.barra{
+        color: #ffffff;
+        background-color: #000000;
+        display: block;
+    }
+    #check:checked ~ .ul{
+        display: flex;
+
+    }
+
+
+
+    /*#check:checked ~ .ul{
+        width: 100vh;
+        height: 100vh;
+        background-color: #14a59e;
+    }
+    li{
+        display:block;
+        background-color: #2514a5;
+        width: 100vh;
+        position: fixed;
+
+    }*/
+/* ul li {    BARRA pequeña
+        list-style: none;
+        font-family:"Major Mono Display", monospace;
+    }
+    .barra{ /*BARRA pequeña
+        text-decoration: none;
+        font-size: 13px;
+        color: #D65108;
+        margin:auto;
+    }*/
+
+
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+}
+
+@media (min-width:1024px){
+    .seccion-2{ /*contenedor de .estesoyyo y .acerca-imagen*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #14a555;
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 3%;
+        flex-wrap:wrap ;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    .header{
+        
+    }
+    #check
+    {
+        display: none;
+        }
+    .checkbtn
+    {
+        display: none;
+        }
+    }
+
+
+/*
+
+#check {
+    display: none;
+    }
+    
+    .checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    }
+
+
+
+
+    #header_principal {
+        display: flex;
+        background-color: #003366;
+        align-items: center;
+        justify-content: space-between;
+        /* overflow: auto;
+        flex-wrap: wrap;
+        }*/
+
+
